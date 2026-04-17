@@ -7,7 +7,7 @@ import { useRef } from "react";
 const highlight = [
   { icon: Code, title: "Frontend", desc: "React, Nextjs, TypeScript" },
   { icon: Server, title: "Backend", desc: "Node.js, Python, Go" },
-  { icon: Cloud, title: "Cloud", desc: "AWS, Docker, CI/CD" },
+  { icon: Cloud, title: "Cloud", desc: "Docker, CI/CD" },
   { icon: Smartphone, title: "Mobile", desc: "React Native, Flutter" },
 ];
 
