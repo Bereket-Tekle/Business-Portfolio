@@ -50,7 +50,7 @@ const ContactSection = () => {
         >
           <a
             href="mailto:berekettekle57@gmail.com"
-            className="px-6 py-3 bg-primary text-primary-foreground font-medium text-sm rounded-lg hover:opacity-90 transition-opacity"
+            className="px-6 py-3 bg-primary text-primary-foreground font-medium text-sm rounded-lg hover:opacity-90 transition-opacity cursor-none"
           >
             Send me an email
           </a>
@@ -58,7 +58,7 @@ const ContactSection = () => {
             href="/doc/Bereket Tekle.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-6 py-3 border border-border text-sm font-medium rounded-lg text-muted-foreground hover:border-primary/50 hover:text-primary transition-colors"
+            className="flex items-center gap-2 px-6 py-3 border border-border text-sm font-medium rounded-lg text-muted-foreground hover:border-primary/50 hover:text-primary transition-colors cursor-none"
           >
             <FileText className="w-4 h-4" />
             Download Resume
@@ -75,7 +75,7 @@ const ContactSection = () => {
               key={label}
               href={href}
               target="_blank"
-              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300 text-sm"
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300 text-sm cursor-none"
             >
               <Icon className="w-4 h-4" />
               <span className="font-mono text-xs">{label}</span>

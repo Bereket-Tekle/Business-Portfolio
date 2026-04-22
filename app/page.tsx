@@ -12,12 +12,12 @@ import TechLogos from "@/components/TechLogos";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background relative cursor-none">
+    <div className="min-h-screen bg-background relative cursor-none ">
       <Navbar />
       <HeroSection />
       <TechLogos />
       <FloatingParticle />
-      <CustomCursor/>
+      <CustomCursor />
       <AboutSection />
       <SkillSection />
       <ExperienceSection />
