@@ -64,6 +64,10 @@ const techLogos = [
     name: "VS Code",
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
   },
+  {
+    name: "Nest JS",
+    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+  },
 ];
 
 const doubled = [...techLogos, ...techLogos];
