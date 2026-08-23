@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const links = [
   { icon: Mail, label: "berekettekle57@gmail.com", href: "mailto:berekettekle57@gmail.com" },
-  { icon: GitHub, label: "GitHub", href: "https://github.com/BTutd" },
+  { icon: GitHub, label: "GitHub", href: "https://github.com/Bereket-Tekle" },
   { icon: LinkedIn, label: "LinkedIn", href: "https://www.linkedin.com/in/bereket-tekle/" },
 ];
 
